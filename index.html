@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ChaiCSS</title>
+
+</head>
+
+<body>
+    <header class="chai-p-16 ">
+        <h1 class="chai-align-left">ChaiCSS</h1>
+        <p>
+            This project focuses on DOM manipulation, pattern parsing, and building a reusable client-side library that mimics the behavior of utility-first CSS frameworks.
+        </p>
+        <p class="chai-align-left">Created by Jiv-s</p>
+        <p class="chai-align-center chai-fs-22">below is the demo created with Chai-Css and the supported Utilities</p>
+    </header>
+    <div class="chai-flex chai-center chai-p-32">
+        <div class="chai-card-primary chai-p-24">
+            <h1 class="chai-align-center">Sign In</h1>
+            <form>
+                <div class="chai-m-16">
+                    <label class="chai-m-8">Email</label>
+                    <input type="email" placeholder="Enter your email" class="chai-w-100 chai-p-8 chai-radius-6px ">
+                </div>
+                <div class="chai-m-16">
+                    <label class="chai-m-8">Password</label>
+                    <input type="password" placeholder="password" class="chai-w-100 chai-p-8 chai-radius-6px " >
+                </div>
+                <button type="submit" class="chai-btn chai-w-100 chai-m-16">Sign In</button>
+            </form>
+        </div>
+    </div>
+
+        <div class="chai-p-32">
+        <h2 class="chai-align-center">Supported Utilities</h2>
+        <div class="chai-card-secondary chai-p-16 chai-m-8">
+            <ul>
+                <li><strong>Spacing:</strong> chai-p-# (padding), chai-m-# (margin), chai-pt, chai-pb, chai-pl, chai-pr, chai-mt, chai-mb</li>
+                <li><strong>Colors:</strong> chai-bg-[color], chai-text-[color]</li>
+                <li><strong>Typography:</strong> chai-fs-# (font-size)</li>
+                <li><strong>Borders:</strong> chai-radius-# (border-radius)</li>
+                <li><strong>Sizing:</strong> chai-w-# (width), chai-h-# (height)</li>
+                <li><strong>Alignment:</strong> chai-align-[left|center|right]</li>
+                <li><strong>Layout:</strong> chai-flex, chai-center, chai-flex-wrap</li>
+                <li><strong>Gap:</strong> chai-gap</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="chai-p-16">
+        <h2 class="chai-align-center">Supported Cards</h2>
+        <div class="chai-flex chai-center" >
+            <div class="chai-card-primary chai-p-16 chai-m-8 chai-align-center">
+                <h3>Primary Card</h3>
+                <p>Use chai-card-primary for blue-accent cards.</p>
+                <button class="chai-btn">Learn More</button>
+            </div>
+            <div class="chai-card-secondary chai-p-16 chai-m-8 chai-align-center">
+                <h3>Secondary Card</h3>
+                <p>Use chai-card-secondary for neutral cards.</p>
+                <button class="chai-btn-secondary">View</button>
+            </div>
+        </div>
+
+        <h2 class="chai-align-center chai-m-24">Supported Buttons</h2>
+        <div class="chai-flex chai-center chai-m-16">
+            <button class="chai-btn chai-m-8">Primary</button>
+            <button class="chai-btn-secondary chai-m-8">Secondary</button>
+            <button class="chai-btn-danger chai-m-8">Danger</button>
+            <button class="chai-btn-outline chai-m-8">Outline</button>
+            <button class="chai-btn-ghost chai-m-8">Ghost</button>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
