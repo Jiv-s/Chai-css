@@ -60,6 +60,7 @@ el.style[property] = value
 
 This makes the engine behave like a mini utility CSS framework.
 
+
 Example Usage
 HTML
 <div class="chai-p-20 chai-bg-lightblue chai-radius-10">
@@ -72,6 +73,8 @@ The script converts it into inline styles:
 padding: 20px
 background-color: lightblue
 border-radius: 10px
+
+
 Available Utilities
 Spacing
 chai-p-10
@@ -94,6 +97,8 @@ chai-w-200
 chai-h-100
 Borders
 chai-radius-10
+
+
 Prebuilt Components
 
 Chai CSS also includes ready-made components.
