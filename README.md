@@ -119,10 +119,13 @@ These components automatically apply styles and hover effects.
 
 📁 Project Structure
 chai-css/
+
 │
 ├── index.html
 ├── script.js
 └── README.md
+
+
 📚 Learning Goals
 
 This project was built to practice:
